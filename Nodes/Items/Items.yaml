@@ -1,0 +1,255 @@
+Name: Items
+Type: FolderType
+Children:
+- Name: JobSimulator1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: JobSimulator1
+    Id: g=ed216072bd5571475277aee264903efa
+    Supertype: NetLogic
+    ReferenceType: HasComponent
+    Children:
+    - Name: SetPointF1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 100
+    - Name: DurationF1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 50
+    - Name: SetPointF2
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 190
+    - Name: DurationF2
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 120
+    - Name: SetPointF3
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 80
+    - Name: DurationF3
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 40
+    - Name: StartStop
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Running
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ActualPhase
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ActualTemperature
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+    - Name: ActualDuration
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ActualDurationF1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ActualDurationF2
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ActualDurationF3
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: TimeToFinishPhase
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: TimeToFinishAll
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: JobsCounter
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Preheating
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: PreheatingTemperature
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 40
+    - Name: ActualSetPoint
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Gas
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+    - Name: kWh
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+    - Name: JobStart
+      Type: BaseDataVariableType
+      DataType: DateTime
+      Value: "1601-01-01T00:00:00.0000000"
+    - Name: JobFinish
+      Type: BaseDataVariableType
+      DataType: DateTime
+      Value: "1601-01-01T00:00:00.0000000"
+    - Name: JobRecipe
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "No Recipe Selected"
+    - Name: JobGas
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+    - Name: JobkWh
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+    - Name: GasThrottle
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+    - Name: kW
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+    - Class: Method
+      Name: ResetFilter
+- Name: JobSimulator2
+  Type: ObjectLibraryItem
+  Children:
+  - Name: JobSimulator2
+    Id: g=7018c11f6a37f562bfb8a59fd6e134ca
+    Supertype: NetLogic
+    ReferenceType: HasComponent
+    Children:
+    - Name: SetPointF1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 100
+    - Name: DurationF1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 50
+    - Name: SetPointF2
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 190
+    - Name: DurationF2
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 120
+    - Name: SetPointF3
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 80
+    - Name: DurationF3
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 40
+    - Name: StartStop
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Running
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ActualPhase
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ActualTemperature
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+    - Name: ActualDuration
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ActualDurationF1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ActualDurationF2
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ActualDurationF3
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: TimeToFinishPhase
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: TimeToFinishAll
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: JobsCounter
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Preheating
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: PreheatingTemperature
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 40
+    - Name: ActualSetPoint
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Gas
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+    - Name: kWh
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+    - Name: JobStart
+      Type: BaseDataVariableType
+      DataType: DateTime
+      Value: "1601-01-01T00:00:00.0000000"
+    - Name: JobFinish
+      Type: BaseDataVariableType
+      DataType: DateTime
+      Value: "1601-01-01T00:00:00.0000000"
+    - Name: JobRecipe
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "No Recipe Selected"
+    - Name: JobGas
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+    - Name: JobkWh
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+    - Name: GasThrottle
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+    - Name: kW
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+    - Class: Method
+      Name: ResetFilter
